@@ -1,0 +1,12 @@
+{
+  "name": "link-shortener-backend",
+  "version": "1.0.0",
+  "description": "Link Shortener - serverless Lambda functions",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -r functions shared package.json dist/"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+variable "project_name" {}
+variable "aws_region" {}
+variable "cognito_user_pool_id" {}
+variable "cognito_client_id" {}
+variable "create_link_invoke_arn" {}
+variable "get_links_invoke_arn" {}
+variable "delete_link_invoke_arn" {}
+variable "redirect_invoke_arn" {}
+variable "create_link_name" {}
+variable "get_links_name" {}
+variable "delete_link_name" {}
+variable "redirect_name" {}

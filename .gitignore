@@ -1,0 +1,28 @@
+node_modules/
+.env
+.env.local
+dist/
+build/
+
+# terraform local override (only for localstack testing)
+local_override.tf
+
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!terraform.tfvars.example
+.terraform.lock.hcl
+lambda-package.zip
+
+# vite
+frontend/dist/
+
+# logs
+*.log
+logs/
+
+# os
+.DS_Store
+Thumbs.db

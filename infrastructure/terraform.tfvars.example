@@ -1,0 +1,6 @@
+aws_region   = "eu-west-1"
+project_name = "link-shortener"
+environment  = "prod"
+
+# after first apply, paste the api_url output here and run terraform apply again
+base_url = ""
